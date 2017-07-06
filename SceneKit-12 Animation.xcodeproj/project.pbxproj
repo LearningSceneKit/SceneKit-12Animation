@@ -15,6 +15,9 @@
 		8305FF3E1F0E14FA00BFFA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF3C1F0E14FA00BFFA50 /* LaunchScreen.storyboard */; };
 		8305FF491F0E14FA00BFFA50 /* SceneKit_12_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF481F0E14FA00BFFA50 /* SceneKit_12_AnimationTests.m */; };
 		8305FF541F0E14FA00BFFA50 /* SceneKit_12_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF531F0E14FA00BFFA50 /* SceneKit_12_AnimationUITests.m */; };
+		8305FF621F0E16C000BFFA50 /* foldingMap.dae in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF611F0E16C000BFFA50 /* foldingMap.dae */; };
+		8305FF641F0E16EB00BFFA50 /* box2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF631F0E16EB00BFFA50 /* box2.jpg */; };
+		8305FF661F0E179600BFFA50 /* mapImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF651F0E179600BFFA50 /* mapImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		8305FF4F1F0E14FA00BFFA50 /* SceneKit-12 AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-12 AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8305FF531F0E14FA00BFFA50 /* SceneKit_12_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_12_AnimationUITests.m; sourceTree = "<group>"; };
 		8305FF551F0E14FA00BFFA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305FF611F0E16C000BFFA50 /* foldingMap.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = foldingMap.dae; sourceTree = "<group>"; };
+		8305FF631F0E16EB00BFFA50 /* box2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box2.jpg; sourceTree = "<group>"; };
+		8305FF651F0E179600BFFA50 /* mapImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		8305FF2D1F0E14FA00BFFA50 /* SceneKit-12 Animation */ = {
 			isa = PBXGroup;
 			children = (
+				8305FF611F0E16C000BFFA50 /* foldingMap.dae */,
+				8305FF651F0E179600BFFA50 /* mapImage.png */,
 				8305FF311F0E14FA00BFFA50 /* AppDelegate.h */,
 				8305FF321F0E14FA00BFFA50 /* AppDelegate.m */,
 				8305FF341F0E14FA00BFFA50 /* ViewController.h */,
@@ -117,6 +125,7 @@
 		8305FF2E1F0E14FA00BFFA50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8305FF631F0E16EB00BFFA50 /* box2.jpg */,
 				8305FF2F1F0E14FA00BFFA50 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,8 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8305FF3E1F0E14FA00BFFA50 /* LaunchScreen.storyboard in Resources */,
+				8305FF641F0E16EB00BFFA50 /* box2.jpg in Resources */,
+				8305FF661F0E179600BFFA50 /* mapImage.png in Resources */,
 				8305FF3B1F0E14FA00BFFA50 /* Assets.xcassets in Resources */,
 				8305FF391F0E14FA00BFFA50 /* Main.storyboard in Resources */,
+				8305FF621F0E16C000BFFA50 /* foldingMap.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				8305FF5A1F0E14FA00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8305FF5B1F0E14FA00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-12 AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				8305FF5D1F0E14FA00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8305FF5E1F0E14FA00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-12 AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				8305FF601F0E14FA00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
